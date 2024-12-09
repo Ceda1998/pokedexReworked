@@ -1,0 +1,55 @@
+.pokeCard {
+    background-color: grey;
+    border-radius: 14px;
+    height: 350px;
+    width: 350px;
+}
+
+.pokeCard:hover {
+    transform: scale(1.1);
+    transition: all .4s linear;
+}
+
+.pokeName {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pokeImg-top {
+    height: 200px; /* Höhe anpassen */
+    width: 200px;  /* Breite anpassen */
+    padding: 0;
+    background-size: contain; /* Passt das Sprite an den Rahmen an */
+    background-position: center; /* Zentriert das Sprite */
+    background-repeat: no-repeat; /* Wiederholung des Bildes verhindern */
+    image-rendering: pixelated; /* Klare Kanten für Sprites */
+}
+
+.pokeImgContainer {
+    display: flex;
+    justify-content: center;
+}
+.frontStats {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.frontStatsWrapper {
+    display: flex;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100px;
+    height: 25px;
+    border-radius: 12px;
+}
+
+.frontStatsWrapper p {
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+}

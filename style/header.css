@@ -1,0 +1,10 @@
+.pokeballIcon {
+    height: 24px;
+    width: 24px;
+}
+
+.pokeballContainer {
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+}
