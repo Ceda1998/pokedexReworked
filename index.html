@@ -3,18 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokedex</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./style/card.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/search.js"></script>
 </head>
-<body>
-    <p>works</p>
+<body onload="getData()">
+<header>
+    <nav class="navbar navbar-light pokeRed justify-content-between">
+        <a class="navbar-brand fw-bolder fs-3">Pokedex</a>
+        <form class="form-inline d-flex p-2">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-light btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+</header>
 
-<div class="card" style="width: 18rem;">
+<div class="card m-5" style="width: 18rem;">
     <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
+
+  <footer>
+
+  </footer>
 </body>
 </html>
